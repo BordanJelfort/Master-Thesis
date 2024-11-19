@@ -3,8 +3,8 @@ This Repository covers the R-code of my Master Thesis "How Machine Learing Enhan
 
 Before starting executing the R-Markdown set please read this file first:
 
-1. Packages:
-	a) In order for the chunks to run properly all packages need to be installed first with the command "install.packages("packagename")
+1. Packages:\
+	a) In order for the chunks to run properly all packages need to be installed first with the command "install.packages("packagename")\
 	b) If you want to work (adjust the code with) with "h2o": The packages h2o and modeltime.h2o need to be installed manually (see "https://h2o-release.s3.amazonaws.com/h2o/rel-3.46.0/5/index.html" for details) and require java to be installed on the machine.
 		--> Furthermore, for the command "h2o.init(...)" to run properly, one needs to execute two commands in the console first:
 			(i) "cd C:\Users\Berger\Downloads\h2o-3.46.0.5" (path where your h2o package is installed)
